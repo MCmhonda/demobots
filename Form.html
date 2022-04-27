@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<form>
+		<div class="search">
+    	 	 <h1>Hello.</h1>
+  			<input type="text" id="fname" name="fname" placeholder="What is your name?"><br>
+		</div>
+		<br>
+		<button type="submit">Submit</button>
+	</form>
+</body>	
+<style type="text/css">
+	html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	background: #BC0F0F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Open Sans', Luminari;
+}
+
+h1{
+	font: Luminari;
+	font-family: Luminari;
+	font-size: 25px;
+	color: #09F40F;
+}
+
+input[type=text] {
+  width: 120px;
+  height: 30px;
+  background-color:#283747;
+  color: black;
+  border-radius: 12px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width 2s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 250px;
+  background-color: #95A5A6;
+  box-shadow: 0 0 8px rgba(91,239,16, 1);
+  -webkit-box-shadow: 0 0 8px rgba(91,239,16, 1); 
+  -moz-box-shadow: 0 0 8px rgba(91,239,16, 1);
+  border:1px solid rgba(91,239,16, 0.8); 
+}
+
+button{
+	width: 70px;
+	height: 40px;
+	text-align: center;
+	border-radius: 12px; 
+	color: #BC0F0F;
+	border: 0px;
+	background-color:#95A5A6;
+}
+
+button:hover{
+	color: #09F40F;
+	background-color: #283747
+}
+</style>
+</html>
